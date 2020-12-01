@@ -7,13 +7,15 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
+/*
 import com.amazonaws.mobile.client.AWSMobileClient;
 import com.amazonaws.mobileconnectors.s3.transferutility.TransferListener;
 import com.amazonaws.mobileconnectors.s3.transferutility.TransferObserver;
 import com.amazonaws.mobileconnectors.s3.transferutility.TransferState;
 import com.amazonaws.mobileconnectors.s3.transferutility.TransferUtility;
 import com.amazonaws.services.s3.AmazonS3Client;
+
+ */
 import com.google.firebase.iid.FirebaseInstanceId;
 
 import java.io.BufferedReader;
@@ -65,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+    /*
     private void downloadWithTransferUtility(){
         TransferUtility transferUtility =
                 TransferUtility.builder()
@@ -105,5 +108,5 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-    }
+    }*/
 }
